@@ -14,4 +14,9 @@ func main() {
 	formatter.MyPrintln("This is from MyPrintln")
 	// This function is not export
 	// formatter.myPrintln("This is from MyPrintln")
+
+	c := &formatter.Citizen{}
+
+	c.PrintIDCard()
+
 }
