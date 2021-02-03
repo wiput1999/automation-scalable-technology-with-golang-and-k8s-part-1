@@ -56,6 +56,8 @@ func main() {
 
 	// 1. Constructor function will return struct pointer
 	citizen := NewCitizen("Chaiyapong", "Lapliengtrakul", "1122334455")
+
+	// We can switch to Japan Citizen
 	citizenSvc := NewThaiCitizenService()
 	// citizenSvc := NewJapanCitizenService()
 
